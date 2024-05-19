@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIO - Mein Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Zusätzliche CSS-Stile für das Layout */
+      .social-icons {
+        display: flex;
+        align-items: center;
+        margin-right: 20px; /* Abstand zu den Navigationselementen */
+      }
+
+      .social-icons a {
+        color: #ddd;
+        font-size: 20px;
+        margin-left: 10px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+      }
+
+      .social-icons a:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <a href="https://github.com/Gerald-Ha" target="_blank">LinkedIn</a>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="hero">
+        <h1>BIO</h1>
+        <p>Willkommen in meiner Welt!</p>
+        <a href="#about" class="button">Mehr über mich</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Hi, ich bin John Doe</h2>
+            <p>Ich bin ein professioneller Coder.</p>
+            <p>
+              Ich verwende Animationen als dritte Dimension, um Erfahrungen zu
+              vereinfachen und durch jede Interaktion zu führen. Ich füge nicht
+              nur Bewegung hinzu, um Dinge aufzupeppen, sondern tue dies auf
+              eine Weise, die...
+            </p>
+            <a href="#" class="button">Mehr lesen</a>
+          </div>
+          <div class="profile-picture-placeholder">
+            <img src="img/1.png" alt="Profilbild" />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Beste Fähigkeiten</h2>
+        <ul class="skills-list">
+          <li>
+            HTML
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 80%"></div>
+            </div>
+          </li>
+          <li>
+            CSS
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 70%"></div>
+            </div>
+          </li>
+          <li>
+            JavaScript
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 60%"></div>
+            </div>
+          </li>
+          <li>
+            Python
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 50%"></div>
+            </div>
+          </li>
+          <li>
+            Git
+            <div class="skill-bar">
+              <div class="skill-level" style="width: 40%"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Hier werden deine Portfolio-Projekte aufgelistet -->
+      </section>
+
+      <section id="testimonials">
+        <h2>Feedback</h2>
+        <div class="testimonial">
+          <blockquote>
+            "Jone Lee ist ein unglaublicher Entwickler. Er hat meine Website
+            schnell und effizient erstellt und sie sieht fantastisch aus. Ich
+            kann ihn nur wärmstens empfehlen!"
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            "Jone Lee ist ein echter Problemlöser. Er hat mir geholfen, einige
+            komplexe technische Herausforderungen zu meistern, und seine Arbeit
+            war stets von höchster Qualität."
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Nachricht:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Senden</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2024 John Doe -
+        <a href="https://github.com/Gerald-Ha" target="_blank">GitHub</a>
+      </p>
+      <a href="#">Impressum</a>
+    </footer>
+  </body>
+</html>

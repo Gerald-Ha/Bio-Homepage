@@ -1,0 +1,211 @@
+/* Allgemeine Settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Farbe Hintergrund */
+    color: #ddd; /* Hellgrau - Text */
+    max-width: 1200px; /* Maximale Breite der Seite */
+    margin: 0 auto; /* Zentriert die Seite */
+}
+
+a {
+    color: #c70039; /* Rot für Links */
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c70039; /* Rot für Buttons */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Etwas dunkleres Grau für Header */
+    padding: 20px;
+    text-align: center;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 39%;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation ul li a {
+    color: #ddd; /* Hellgrau für Links im Header */
+}
+
+.navigation ul li a:hover {
+    background-color: #444; /* Etwas dunkleres Grau beim Hover im Header */
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.social-media a {
+    color: #ddd;
+    font-size: 16px;
+    
+    padding: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 0;
+    color: #fff; /* Weißer Text im Hero Bereich */
+}
+
+/* Hauptteil */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* Weißer Text für Überschriften */
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    width: calc(33.33% - 20px); /* Portfolio Boxen */
+    background-color: #333; /* Dunkleres Grau für Portfolio-Items */
+    color: #ddd; /* Hellgrauer Text für Portfolio-Items */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Fähigkeiten */
+.skills-list {
+    list-style: none;
+    padding: 0;
+	width: calc(50.33% - 20px);  /* Balken länge */
+	margin: 0 auto; /* Position der Balken */
+	
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #c70039;
+}
+
+/* Feedback */
+blockquote {
+    background-color: #444; /* Etwas dunkleres Grau für Zitate */
+    border-left: 10px solid #c70039; /* Roter Rand für Zitate */
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #ddd; /* Hellgrauer Text für Zitate */
+    width: calc(50% - 40px); /* feedback boxen breite */
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Kontakt */
+#contact form {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #444; 
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.about-content {
+    display: flex; /* Flexbox-Layout */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    margin-bottom: 20px; /* Abstand unter dem Abschnitt */
+    padding: 50px;
+}
+
+.about-text {
+    flex: 2; /* Nimmt den verbleibenden Platz ein */
+    padding-right: 20px; /* Abstand rechts vom Text */
+}
+
+.profile-picture-placeholder {
+    flex: 1; /* Nimmt 1/3 des Platzes ein */
+    margin-right: 20px; /* Abstand links vom Bild */
+    overflow: hidden; /* Überlauf ausblenden, falls das Bild größer ist */
+}
+
+.profile-picture-placeholder img {
+    max-width: 100%; /* Maximale Breite des Bildes */
+    height: auto; /* Automatische Höhe, um das Seitenverhältnis beizubehalten */
+    display: block; /* Das Bild als Blockelement anzeigen */
+}
